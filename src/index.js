@@ -28,6 +28,8 @@ if (currentTime < 12 && currentTime > 0) {
 }
 
 ReactDOM.render(
-  <h1 style={{ color: greeting.color }}>{greeting.message}</h1>,
+  <h1 style={{ color: greeting.color }} className="heading">
+    {greeting.message}
+  </h1>,
   document.getElementById("root")
 );
